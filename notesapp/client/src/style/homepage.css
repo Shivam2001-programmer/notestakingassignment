@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(249, 247, 247);
+}
+
+.d-flex {
+    display: flex !important;
+    margin-top: 26px;
+    margin-left: 0px;
+}
+
+.card {
+    margin-bottom: 30px !important;
+    width: 22% !important;
+    background-color: white !important;
+    border-radius: 25px;
+    padding-left: 4px;
+    box-shadow: rgb(198, 195, 195) 1px 1px 15px;
+}
+
+.card .product-link {
+    color: blueviolet;
+}
+
+.card-title {
+    text-align: center;
+    padding: 2px;
+}
+
+.card-body {
+    color: rgb(65, 22, 22);
+}
+
+.delete {
+    color: brown;
+    margin: 20px;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    .card {
+        width: 45% !important;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+    .card {
+        width: 90% !important;
+        margin-left: 0;
+    }
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+}
